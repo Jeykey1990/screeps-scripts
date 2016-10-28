@@ -9,5 +9,14 @@
     "dist/**": true,
     "node_modules/**": true,
     "typings/**": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/.gitattributes": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true
   }
 }
